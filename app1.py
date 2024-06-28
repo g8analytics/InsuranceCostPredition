@@ -1,10 +1,10 @@
 import streamlit as st
 import pickle
-#from PIL import Image
+from PIL import Image
 
 
 # Load logo image
-#logo = Image.open('src/logo.png')
+#logo = Image.open('images/logo.png')
 
 # Load the ML model from the pickle file
 with open('medical_insurance_model.pkl', 'rb') as f:
