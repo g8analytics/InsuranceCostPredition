@@ -1,10 +1,10 @@
 import streamlit as st
 import pickle
-from PIL import Image
+#from PIL import Image
 
 
 # Load logo image
-logo = Image.open('src/logo.png')
+#logo = Image.open('src/logo.png')
 
 # Load the ML model from the pickle file
 with open('medical_insurance_model.pkl', 'rb') as f:
@@ -12,7 +12,7 @@ with open('medical_insurance_model.pkl', 'rb') as f:
 
 
 # Create sidebar with logo and menu options
-st.sidebar.image(logo, use_column_width=True)
+#st.sidebar.image(logo, use_column_width=True)
 st.sidebar.title("Insurance Cost Prediction App")
 st.sidebar.caption("Powered by Machine Learning")
 st.sidebar.empty()
